@@ -1,0 +1,756 @@
+/* spectral-sc-regular - cyrillic */
+@font-face {
+font-family: 'Spectral SC';
+font-style: normal;
+font-weight: 400;
+src: local('Spectral SC Regular'), local('SpectralSC-Regular'),
+         url('../fonts/spectral-sc-v5-cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/spectral-sc-v5-cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* spectral-sc-700 - cyrillic */
+@font-face {
+font-family: 'Spectral SC';
+font-style: normal;
+font-weight: 700;
+src: local('Spectral SC Bold'), local('SpectralSC-Bold'),
+         url('../fonts/spectral-sc-v5-cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/spectral-sc-v5-cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+  /* open-sans-regular - cyrillic */
+@font-face {
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: 400;
+     src: local('Open Sans Regular'), local('OpenSans-Regular'),
+          url('../fonts/open-sans-v18-cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/open-sans-v18-cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+   /* open-sans-italic - cyrillic */
+@font-face {
+     font-family: 'Open Sans';
+     font-style: italic;
+     font-weight: 400;
+     src: local('Open Sans Italic'), local('OpenSans-Italic'),
+          url('../fonts/open-sans-v18-cyrillic-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/open-sans-v18-cyrillic-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+box-sizing: border-box;
+}
+
+*, *::before, *::after {
+box-sizing: inherit;
+}
+
+body {
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: 400;
+}
+
+
+.wrapper {
+max-width: 1200px;
+margin: 0 auto;
+}
+
+/* Стили для шапки сайта  */
+
+
+
+.header-page {
+background-color: grey;
+min-height: 581px;
+background: url('../img/bgheaderjpg.jpg') no-repeat center bottom;
+background-size: cover;
+margin-bottom: 83px;
+}
+
+.header-top {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.header-list {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+padding-top: 33px;
+}
+
+.header-link {
+text-decoration: none;
+font-size: 18px;
+line-height: 25px;
+color: #2E2F22;
+}
+
+.header-item:not(:last-child) {
+margin-right: 83px;
+}
+
+/* !!!!Основное содержание страницы !!!!!*/
+
+
+/* Раздел со статьями*/
+
+.all_articles__item a {
+text-decoration: none;
+}
+
+
+.articles {
+     margin-bottom: 78px;
+}
+
+.articles__titel {
+font-family: Spectral SC;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 55px;
+color: #2E2F22;
+}
+
+.artilces__top__items {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     margin-bottom: 50px;
+     
+}
+
+#themes {
+     width: 203px;
+     height: 46px;
+     padding-left: 20px;
+     background: #D7D1C9 url('../img/arrow.svg') no-repeat 182px center;
+     border-radius: 10px;
+}
+
+
+.article__item__titel {
+font-family: Spectral SC;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 27px;
+color: #2E2F22;
+margin-bottom: 8px;
+}
+
+.article__item__subtitle {
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #2E2F22;
+max-width: 497px;
+margin-bottom: 12px;
+padding-right: 25px;
+}
+
+.all__articles {
+     display: flex;
+     flex-wrap: wrap;
+     
+}
+
+.all_articles__item {
+     max-width: 387px;
+     margin-right: 19px;
+     margin-bottom: 100px;
+}
+
+.all_articles__item:nth-child(3) {
+     margin-right: 0;   
+}
+
+.all_articles__item__lg {
+     max-width: 590px;
+     position: relative;
+}
+
+.lg__first {
+     margin-right: 20px;
+}
+
+.article__img {
+margin-bottom: 27px;
+}
+
+.item__tag, .item__time {
+     font-family: Open Sans;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 26px;
+     color: rgba(46, 47, 34, 0.7);   
+}
+
+.item__bottom__info {
+     display: flex;
+     justify-content: space-between;
+}
+
+
+.lg__item__text {
+width: 497px;
+position: absolute;
+top: 300px;
+left: 82px;
+}
+
+/*Большие картинки !!!!!!! */
+
+.lg__item__text .article__item__titel {
+     font-family: Spectral SC;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 20px;
+     line-height: 30px; 
+     color: #FFFFFF; 
+     margin-bottom: 8px;
+}
+
+.lg__item__text .article__item__subtitel {
+     margin-bottom: 12px;
+}
+
+.lg__item__text p,  .lg__item__text time {
+     font-family: Open Sans;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 18px;
+     line-height: 28px;    
+     color: #FFFFFF;   
+}
+
+.lg__item__text .item__tag, .lg__item__text .item__time{
+color: rgba(255, 255, 255, 0.7);
+}
+
+.all_articles__item__lg .item__time {
+     margin-right: 70px;
+}
+
+.show-more-button {
+     margin-top: 102px;
+     display: inline-block;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 12px 58px;
+     border: 1px solid #202117;
+     border-radius: 10px;
+     background: #E5E5E5;
+     color: #202117;
+}
+
+/* Секция обо мне !!!!!!!*/
+.portfolio {
+margin-bottom: 85px;
+}
+
+.about-me {
+     margin-bottom: 85px;
+}
+
+.about-me-header {
+margin-bottom: 49px;
+text-align: center;
+}
+
+.about-me__main__content {
+     display: flex;
+}
+
+/* Текстовая часть секции "Обо мне" !!!!!  */
+.about-me__text-content {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     }
+
+.greeting {
+margin-top: 50px;
+margin-left: 40px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #2E2F22;
+width: 497px;
+}
+
+.form_link {
+text-decoration: underline;
+color: #2E2F22;
+}
+
+.phrase {
+margin-left: 20px;
+font-family: Open Sans;
+font-style: italic;
+font-weight: normal;
+font-size: 30px;
+line-height: 40px;
+color: #2E2F22;
+border-left: 3px solid #D7D1C9;
+padding-left: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+/*Секция с портфолио!!!!!!!! */
+
+.portfolio_titel {
+text-align: center;
+margin-bottom: 49px;
+}
+
+/* Разметка карточек !!!!!!*/
+.cards {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.info__card {
+max-width: 387px;
+position: relative;
+}
+
+
+.card__text {
+color: rgb(184, 137, 52);
+position: absolute;
+top: 10px;
+left: 5px;
+}
+
+.article__item__titel_portfolio {
+     font-family: 'Spectral SC';
+     font-style: normal;
+     font-weight: bold;
+     font-size: 20px;
+     line-height: 30px;
+     color: #2E2F22;
+     text-align: center;
+     padding-top: 140px;
+     margin-bottom: 44px;
+}
+
+.card__titel {
+font-family: 'Spectral SC';
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+color: #2E2F22;   
+text-align: center;  
+margin-bottom: 17px;
+}
+
+.card_inside_text {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #2E2F22;
+}
+
+/* Белый цвет карточек !!!!!*/
+.titel3_white, .titel4_white, .text_white {
+     color: white;
+}
+
+/* Кнопка в разделе "Портфолио"!!!!!!*/
+
+.show__more__portfolio {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #202117;
+border: 1px solid #202117;
+box-sizing: border-box;
+border-radius: 10px;
+width: 224px;
+height: 46px;
+display: inline-block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 104px;
+}
+
+/* Секция "Написать мне"!!!!!!!!!!!!!!!!!*/
+.send_me {
+margin-bottom: 81px;
+}
+
+.send_me_titel {
+text-align: center;
+margin-bottom: 49px;
+}
+
+.send_me_wrapper {
+max-width: 996px;
+margin: 0 auto;
+}
+
+#send_me_form {
+background: url('../img/sendmebg.png');
+height: 637px;
+}
+
+.inside-form-wrapper {
+max-width: 837px;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding-top: 53px;
+}
+
+#message, #name, #email {
+background: rgba(255, 255, 255, 0.4);
+}
+
+label {
+     font-family: Spectral SC;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 18px;
+     line-height: 28px;
+     color: #2E2F22;
+     margin-bottom: 12px;
+}
+
+.flex_form {
+display: flex;
+flex-direction: column;
+}
+
+input {
+margin-bottom: 20px;
+border: 1px solid #202117;
+box-sizing: border-box;
+border-radius: 10px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #202117;
+opacity: 0.7;
+width: 407px;
+padding: 20px 200px 20px 20px ;
+}
+
+textarea {
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 10px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #202117;
+opacity: 0.7;
+padding-top: 20px;
+padding-left: 20px;
+}
+
+.submit_btn {
+background: transparent;
+margin-top: 32px;
+margin-left: auto;
+margin-right: auto;
+border: 1px solid #202117;
+box-sizing: border-box;
+border-radius: 10px;
+padding: 12px 65px;
+}
+
+/* Подвал страницы!!!!!!!!!!!!!!!!!!!!! */
+
+.footer_wrapper {
+max-width: 631px;
+margin: 0 auto;
+}
+
+.page-footer {
+min-height: 181px;
+background-color: #D7D1C9;
+}
+
+.socials {
+display: flex;
+justify-content: space-between;
+padding-top: 65px;
+}
+
+.social {
+text-decoration: none;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+color: #2E2F22;
+}
+
+
+
+
+
+/* НАЧАЛО ВТОРОЙ СТРАНИЦЫ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.page__2 {
+background: url('../img/page_2_bg_img.jpg') no-repeat center bottom;
+background-color: grey;
+min-height: 581px;
+background-size: cover;
+margin-bottom: 83px;
+}
+
+/*основной контень 2 страницы*/
+
+/*
+Секция "Как мотивировать себя"!!!!!!!!!!!!!!!*/
+.to-motivate__wrapper {
+max-width: 998px;
+margin-left: 0px;
+margin-right: 300px;
+}
+
+.to-motivate__top {
+margin-bottom: 50px;
+}
+
+.to-motivate-tag {
+display: inline-block;
+margin-right: 20px;
+}
+
+/*Стилизация текста статьи*/
+.how-to-motivate p {
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 26px;
+     color: #2E2F22;
+}
+
+.go-to-all-articles__header{
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: bold;
+     font-size: 36px;
+     line-height: 49px;
+     color: #2E2F22;
+     display: inline-block;
+     margin-right: 26px;
+}
+.go-to-all-articles__link{
+text-decoration: none;
+}
+
+.how-to-motivate figcaption p {
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 26px;
+     color: #2E2F22;
+}
+
+.to-motivate-main p{
+width: 991px;
+} 
+
+.to-motivate-main figcaption {
+margin-top: 10px;
+}
+
+.to-motivate-main figure {
+margin-bottom: 40px;
+margin-top: 40px;
+}
+
+
+
+.how-to-motivate {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-bottom: 65px;
+}
+
+.buttons_and_likes_box{
+display: flex;
+justify-content: space-between;
+width: 997px;
+margin-top: 40px;
+}
+
+.socials-buttons a:not(:last-child){
+margin-right: 32px;
+}
+
+.likes_count{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 26px;
+color: #2E2F22;
+vertical-align: bottom;
+margin-left: 12px;
+}
+
+.socials-buttons{
+margin-bottom: 37px;
+}
+
+/*Секция с комментариями !!!!!!!!!!!!!!!!!!!!!*/
+
+
+.comments{
+margin-bottom: 42px;
+}
+
+.comments-wrapper{
+max-width: 793px;
+margin-left: 125px;
+margin-right: 0px;
+}
+
+.all-comments{
+background: #ECE1E1;
+border: 1px solid #ECE1E1;
+border-radius: 10px;
+}
+
+.person_name{
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: bold;
+     font-size: 16px;
+     line-height: 22px;
+     color: #2E2F22;
+     margin-left: 12px;
+     display: inline-block;
+}
+
+.person_comment{
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 22px;
+     color: #2E2F22;
+     margin-top: 14px;
+}
+
+.person{
+margin-left: 95px;
+margin-bottom: 50px;
+}
+
+.person:first-child {
+margin-top: 43px;
+}
+
+.person:nth-child(2){
+margin-bottom: 23px;
+}
+
+/*Форма для комментария !!!!!!!!!!!!!!!!!!*/
+
+.form_new-comment-wrapper{
+max-width: 711px;
+margin-left: auto;
+}
+
+.new_comment_header{
+     font-family: Open Sans;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 24px;
+     line-height: 33px;
+     color: #2E2F22;
+     margin-top: 76px;
+     margin-bottom: 69px;
+}
+
+.form_new-comment_button_inputs{
+width: 208px;
+margin-right: 81px;
+}
+
+.new-comment-add-button{
+     font-family: Open Sans;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 22px;
+     color: #202117;
+     border: 1px solid #202117;
+     border-radius: 10px;
+     background: #E5E5E5;
+     box-sizing: border-box;
+     width: 224px;
+     height: 46px;
+}
+
+.new-comment-add-button, #new-comment-add-name, #new-comment-add-email{
+width: 100%;
+}
+
+.new_comment input {
+border: none;
+border-bottom: 1px solid #2E2F22;
+border-radius: 0;
+padding: 0;
+}
+
+.new_comment label {
+margin-bottom: 15px;
+}
+
+.new_comment_email_box{
+margin-bottom: 53px;
+}
+
+.new_comment_flex{
+display: flex;
+justify-content: space-between;
+}
+
+.new_comment_textarea{
+     border: 1px solid #2E2F22;
+     border-radius: 10px;
+}
+
+
+/*Подвал второй страницы!!!!!!!!!!!!!!!!!!!!!!*/
+
+.page_2_footer {
+min-height: 181px;
+background-color: #D7D1C9;
+}
+
+.page_2_footer_wrapper{
+max-width: 631px;
+margin: 0 auto;
+}

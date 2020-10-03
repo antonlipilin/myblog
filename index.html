@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header-page">
+<div class="wrapper">
+    <div class="header-top">
+    <div class="header-logo">
+        <a href="#" class="img-link">
+            <img src="../img/logo.svg" alt="header logo">
+        </a>
+    </div>
+    <nav class="main-nav">
+        <ul class="header-list">
+            <li class="header-item">
+                <a href="#go-to-articles" class="header-link">Статьи</a>
+            </li>
+            <li class="header-item">
+                <a href="#go-to-about-me" class="header-link">Обо мне</a>
+            </li>
+            <li class="header-item">
+                <a href="#go-to-portfolio" class="header-link">Портфолио</a>
+            </li>
+            <li class="header-item">
+                <a href="#go-to-send-me" class="header-link">Написать мне</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+</div>
+</header>
+<main>
+    
+
+    <section class="articles">
+        <div class="wrapper">
+            <div class="artilces__top__items">
+            <h2 class="articles__titel" id='go-to-articles'>
+                Все статьи
+            </h2>
+            <form action="" class="search__form">
+                <select name="theme" id="themes">
+                    <option value="select__theme" selected>Выбрать тему</option>
+                    <option value="Berlin">Путешествия</option>
+                    <option value="Moscow">Город</option>
+                    <option value="Books">Книги</option>
+                    <option value="Photos">Фотографии</option>
+                    <option value="pie">Рецепты</option>
+                </select>
+            </form>
+        </div>
+        <section class='all__articles'>
+            <article class="all_articles__item">
+                <a href="zaverstai_articles_page.html">
+                <div class="article__img">
+                    <img src="../img/Berlin.png" alt="Berlin">
+                </div>
+                <h3 class="article__item__titel">
+                    Путешествие в Берлин в августе 
+                </h3>
+                <p class="article__item__subtitle">
+                    Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!
+                </p>
+                <div class="item__bottom__info">
+                <p class="item__tag">Теги: путешествия</p>
+                <time class='item__time'>29.09.2020</time>
+            </div>
+        </a>
+            </article>
+            <article class="all_articles__item">
+                <a href="zaverstai_articles_page.html">
+                <div class="article__img">
+                    <img src="../img/Moscow.png" alt="Moscow">
+                </div>
+                <h3 class="article__item__titel">Где выпить колдбрю в Москве</h3>
+                <p class="article__item__subtitle">Собрала для вас список любимых кофеен,
+                    где подают лучший летний напиток.</p>
+                    <div class="item__bottom__info">
+                <p class="item__tag">Теги: город</p>
+                <time class="item__time">24.07.2020</time>
+            </div>
+            </a>
+            </article>
+            <article class="all_articles__item">
+                <a href="zaverstai_articles_page.html">
+                <div class="article__img">
+                    <img src="../img/books.png" alt="Books">
+                </div>
+                <h3 class="article__item__titel">Прочитано: книжные рекомендации</h3>
+                <p class="article__item__subtitle">Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</p>
+                <div class="item__bottom__info">
+                <p class="item__tag">Теги: книги</p>
+                <time class="item__time">15.07.2020</time>
+                </div>
+                </a>
+            </article>
+            <article class="all_articles__item__lg lg__first">
+                <a href="zaverstai_articles_page.html">
+                <div class="article__img">
+                    <img src="../img/Photos.png" alt="Photos">
+                </div>
+                <div class="lg__item__text">
+                <h3 class="article__item__titel">Снимки на плёнку</h3>
+                <p class="article__item__subtitle">Поделилась с вами весенними фотографиями,
+                    и секретами удачных снимков.</p>
+                    <div class="item__bottom__info">
+                <p class="item__tag">Теги: фотографии</p>
+                <time class="item__time">29.06.2020</time>
+            </div>
+            </div>
+            </a>
+            </article>
+            <article class="all_articles__item__lg">
+                <a href="zaverstai_articles_page.html">
+                <div class="article__img">
+                    <img src="../img/Pie.png" alt="Pie">
+                </div>
+                <div class="lg__item__text">
+                <h3 class="article__item__titel">Домашний чизкейк </h3>
+                <p class="article__item__subtitle">Что может быть лучше чизкейка с сезонными
+                    ягодами? Только домашний чизкейк!</p>
+                    <div class="item__bottom__info">
+                <p class="item__tag">Теги: рецепты</p>
+                <time class="item__time">24.06.2020</time>
+            </div>
+            </div>
+            </a>
+            </article>
+            <button class="show-more-button">Показать ещё</button> 
+        </section>
+        </div>
+    </section>
+
+    <section class="about-me">
+        <div class="wrapper">
+        <h2 class='articles__titel about-me-header' id="go-to-about-me">Обо мне</h2>
+        <div class="about-me__main__content">
+            <div class="main__content_photo">
+                <img src="../img/itsme.jpg" alt="Me">
+            </div>
+            <div class="about-me__text-content">
+                <p class="greeting">
+                    Всем привет! Меня зовут Аня, и это мой личный блог.<br>
+                    Здесь ты найдёшь рассказы о моих путешествиях, снимки<br>
+                    на плёнку, рецепты, обзоры на книги. В общем, тексты о том,
+                    что мне инетресно.
+                    <br>
+                    <br>
+                    Я работаю копирайтером, поэтому мой блоге — это ещё и моё
+                    портфолио. Ниже размещены несколько моих лучших
+                    рабочих текстов. Буду рада новым сотрудничествам!
+                    <br>
+                    <br>
+                    Если вы хотите написать мне — это можно сделать в соцсетях
+                    или через <a href='#go-to-send-me' class="form_link">форму</a>. Всегда приятно услышать обратную связь
+                    от читателей и познакомиться поближе.
+                    <br>
+                    <br>
+                    Приятного чтения!
+                    </p>
+            <p class="phrase">
+                Я верю, что каждый раз пробуя новое,
+                выходящее за зону моего комфорта,<br>
+                я действительно узнаю настояющую
+                себя.      
+            </p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="wrapper">
+            <h2 class='articles__titel portfolio_titel' id='go-to-portfolio'>Портфолио</h2>
+            <section class="cards">
+                <article class="info__card">
+                    <div class="bg__img">
+                        <img src="../img/htmlacademy.png" alt="htmlacademy_photo">
+                    </div>
+                    <div class="card__text">
+                        <h3 class="article__item__titel_portfolio">Блог HTML Academy</h3>
+                        <h4 class='card__titel'>«Как учиться продуктивно»</h4>
+                        <p class="card_inside_text">Про основные методы обучения,
+                            которые помогут быстро и надолго
+                            запомнить информацию.</p>
+                    </div>
+                </article>
+                <article class="info__card">
+                    <div class="bg__img">
+                        <img src="../img/lnk.png" alt="lnk_journal_photo">
+                    </div>
+                    <div class="card__text">
+                        <h3 class="article__item__titel_portfolio titel3_white">Журнал «LNK»</h3>
+                        <h4 class='card__titel titel4_white'>«Зачем поцели нужны человеку?<br>
+                            И какие они бывают»</h4>
+                        <p class="card_inside_text text_white">Поцелуи — повсеместная ежедневная
+                            практика. Но зачем люди целуются?
+                            Какие смысли вкладывают в этот ритуал?
+                            И где корни этой практики?</p>
+                    </div>
+                </article>
+                <article class="info__card">
+                    <div class="bg__img">
+                        <img src="../img/TL.png" alt="TL_journal_photo">
+                    </div>
+                    <div class="card__text">
+                        <h3 class="article__item__titel_portfolio">Журнал «Т — Л»</h3>
+                        <h4 class='card__titel'>«Советы по эффективной
+                            удалённой работе»</h4>
+                        <p class="card_inside_text">Поделилась лайфхаками, которые помогают
+                            мне работать продуктивно из дома. </p>
+                    </div>
+                </article>
+                <button class="show__more__portfolio">Показать ещё</button>
+            </section>
+        </div>
+    </section>
+
+
+<section class="send_me">
+    <div class="wrapper">
+        <h2 class="articles__titel send_me_titel" id="go-to-send-me">Написать мне</h2>
+        <div class="send_me_wrapper">
+        <form action="#" id='send_me_form'>
+            <div class="inside-form-wrapper">
+            <div class="flex_form">
+                <label for="name">Ваше имя</label>
+                <input type="text" id='name' placeholder="Иван Иванов" required>
+            </div>
+            <div class="flex_form">
+                <label for="email">Email</label>
+                <input type="text" id='email' placeholder="google@gmail.com" required>
+            </div>
+            <div class="flex_form">
+                <label for="message">Сообщение</label>
+                <textarea name="message" id="message" cols="91" rows="12" placeholder="Напишите здесь ваше сообщение." minlength="9" maxlength="200" required></textarea>
+            </div>
+            <button class="submit_btn" type="submit">Отправить</button>
+            </div>
+        </form>
+    </div>
+    </div>
+</section>    
+</main>
+
+
+<footer class="page-footer">
+    <div class="footer_wrapper">
+        <div class="socials">
+            <a href="#" class="social">ВК</a>
+            <a href="#" class="social">Телеграм</a>
+            <a href="#" class="social">Инстаграм</a>
+            <a href="#" class="social">Твиттер</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
