@@ -63,7 +63,7 @@ margin: 0 auto;
 .header-page {
 background-color: grey;
 min-height: 581px;
-background: url('../img/bgheaderjpg.jpg') no-repeat center bottom;
+background: url('img/bgheaderjpg.jpg') no-repeat center bottom;
 background-size: cover;
 margin-bottom: 83px;
 }
@@ -407,7 +407,7 @@ margin: 0 auto;
 }
 
 #send_me_form {
-background: url('../img/sendmebg.png');
+background: url('img/sendmebg.png');
 height: 637px;
 }
 
@@ -515,7 +515,7 @@ color: #2E2F22;
 
 /* НАЧАЛО ВТОРОЙ СТРАНИЦЫ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .page__2 {
-background: url('../img/page_2_bg_img.jpg') no-repeat center bottom;
+background: url('img/page_2_bg_img.jpg') no-repeat center bottom;
 background-color: grey;
 min-height: 581px;
 background-size: cover;
