@@ -622,6 +622,10 @@ margin-left: 12px;
 margin-bottom: 37px;
 }
 
+
+.like-button:hover {
+cursor: pointer;
+}
 /*Секция с комментариями !!!!!!!!!!!!!!!!!!!!!*/
 
 
